@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "name": "Epic Designs",
+    "stars": 3.5,
+    "projects": 57,
+    "years": 8,
+    "price": "$$",
+    "phone1": "+91 - 984532853",
+    "phone2": "+91 - 984532854"
+  },
+  {
+    "id": 2,
+    "name": "Studio - D3",
+    "stars": 4,
+    "projects": 43,
+    "years": 6,
+    "price": "$$$",
+    "phone1": "+91 - 984532853",
+    "phone2": "+91 - 984532854"
+  },
+  {
+    "id": 3,
+    "name": "House of designs",
+    "stars": 0,
+    "projects": 0,
+    "years": 0,
+    "price": "$",
+    "phone1": "+91 - 984532853",
+    "phone2": "+91 - 984532854"
+  }
+]
+
+  
+  
+  

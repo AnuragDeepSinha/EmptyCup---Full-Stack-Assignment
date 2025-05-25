@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EmptyCup Designers</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div id="app-container">
+    <header>
+      <div class="logo-section">
+        <!-- Logo (Cup icon in SVG) -->
+        <div class="logo">
+          <svg viewBox="0 0 24 24" fill="#a0522d" width="24" height="24">
+            <circle cx="12" cy="12" r="10"/>
+          </svg>
+        </div>
+        <div class="brand">EmptyCup</div>
+        <div class="menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="black">
+            <circle cx="5" cy="12" r="2"/>
+            <circle cx="12" cy="12" r="2"/>
+            <circle cx="19" cy="12" r="2"/>
+          </svg>
+        </div>
+      </div>
+      <nav class="tabs">
+        <div class="tab active">
+          <!-- Listings Icon -->
+          <svg viewBox="0 0 24 24" fill="brown" width="20" height="20">
+            <rect x="4" y="5" width="16" height="2"/>
+            <rect x="4" y="11" width="16" height="2"/>
+            <rect x="4" y="17" width="16" height="2"/>
+          </svg>
+          <span>Listings</span>
+        </div>
+        <div class="tab">
+          <svg viewBox="0 0 24 24" fill="gray" width="20" height="20">
+            <path d="M4 4h16v16H4z"/>
+          </svg>
+          <span>Gallery</span>
+        </div>
+        <div class="tab">
+          <svg viewBox="0 0 24 24" fill="gray" width="20" height="20">
+            <circle cx="12" cy="10" r="3"/>
+            <path d="M12 13c-3.3 0-6 2.7-6 6h12c0-3.3-2.7-6-6-6z"/>
+          </svg>
+          <span>Map</span>
+        </div>
+        <div class="tab" id="shortlist-tab">
+          <svg viewBox="0 0 24 24" fill="gray" width="20" height="20">
+            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 
+                     2 5.42 4.42 3 7.5 3c1.74 0 3.41 0.81 4.5 2.09 
+                     C13.09 3.81 14.76 3 16.5 3 
+                     C19.58 3 22 5.42 22 8.5 
+                     c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+          </svg>
+          <span>Shortlisted</span>
+        </div>
+        <div class="tab">
+          <svg viewBox="0 0 24 24" fill="gray" width="20" height="20">
+            <path d="M3 3h18v2H3zM5 7h14v14H5z"/>
+          </svg>
+          <span>Sort</span>
+        </div>
+      </nav>
+    </header>
+
+    <main id="listings">
+      <!-- Listings will be dynamically populated here -->
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
