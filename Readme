@@ -1,12 +1,9 @@
-# 🪑 EmptyCup Interior Designer Listing – Full Stack Assignment
+## 🪑 EmptyCup Interior Designer Listing – Full Stack Assignment
 
 A mobile-responsive frontend + Flask backend application that lists interior designers with shortlist functionality. Built for the EmptyCup Full Stack assignment using HTML/CSS/JS and Python (Flask).
 
----
-
 ## 📁 Folder Structure
 
-```plaintext
 emptycup-assignment/
 ├── backend/
 │   ├── app.py              
