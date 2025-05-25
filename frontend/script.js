@@ -47,9 +47,13 @@ function renderDesigners() {
         <button class="action-btn shortlist" onclick="toggleShortlist(${index})">
           ${d.shortlisted ? "💖" : "🤍"} Shortlist
         </button>
+        <button class="action-btn call-btn" onclick="callDesigner('${d.contact[0]}')" title="Call">
+          📞 Call
+        </button>
         <button class="action-btn">Report</button>
       </div>
     `;
+
     listings.appendChild(card);
   });
 }
@@ -59,12 +63,17 @@ function toggleShortlist(index) {
   renderDesigners();
 }
 
+function callDesigner(phoneNumber) {
+  window.location.href = `tel:${phoneNumber}`;
+}
+
 document.getElementById("shortlist-tab").addEventListener("click", () => {
   showOnlyShortlisted = !showOnlyShortlisted;
   renderDesigners();
 });
 
 renderDesigners();
+
 
 
 
