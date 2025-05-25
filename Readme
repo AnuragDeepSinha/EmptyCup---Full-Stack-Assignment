@@ -1,102 +1,35 @@
-# 🪑 EmptyCup Interior Designer Listing – Full Stack Assignment
+<h1 align="center">🛋️ EmptyCup Interior Designers Listing</h1>
 
-A mobile-responsive frontend + Flask backend application that lists interior designers with shortlist functionality. Built for the EmptyCup Full Stack assignment using HTML/CSS/JS and Python (Flask).
+<p align="center">
+  A stylish mobile-friendly web app to discover and shortlist interior designers.<br>
+  Built with a lightweight <strong>Flask API backend</strong> and a <strong>vanilla JS frontend</strong>, styled pixel-perfect as per the Figma design.
+</p>
+
+<p align="center">
+  <img src="frontend/assets/logo.png" alt="EmptyCup Logo" height="50">
+</p>
+
+---
+
+## ✨ Features
+
+- 📱 **Mobile-first responsive layout**
+- 🗂️ View interior designer cards with ratings, experience, pricing, and contact info
+- ❤️ **Shortlist** your favorite designers
+- 🔁 Toggle view: All designers / Shortlisted only
+- ⚡ Fast and lightweight – no frameworks used on frontend
+- 🎯 Clean, modular folder structure and codebase
 
 ---
 
 ## 📁 Folder Structure
 
-```plaintext
-emptycup-assignment/
+emptycup-Full  Stack assignment/
 ├── backend/
-│   ├── app.py              
-│   └── designers.json     
+│ ├── app.py # Flask API for serving designers
+│ └── designers.json # Static JSON with mock data
 └── frontend/
-    ├── index.html          
-    ├── styles.css          
-    ├── script.js          
-              
-Make sure you have Python installed (3.7+ recommended).
-
-Open a terminal in VS Code.
-
-Navigate to the backend folder:
-
-cd backend
-Install required packages:
-
-pip install flask flask-cors
-Start the Flask backend server:
-
-python app.py
-✅ The backend will run at: http://127.0.0.1:5000
-📡 API Endpoint available: GET /api/designers
-
-🌐 Frontend Setup
-Open VS Code and navigate to the frontend/ folder.
-
-Open index.html in a browser:
-
-You can right-click > Open with Live Server (if using VS Code Live Server extension)
-
-Or manually open it from your file system in a browser.
-
-⚠️ Important: Ensure the backend is already running before loading the frontend so that designer data loads correctly via the API.
-
-
-🖼️ UI Overview
-🧾 Designer Cards Display
-Each card shows:
-
-🏷️ Name
-
-⭐ Rating
-
-📦 Projects completed
-
-📅 Years of experience
-
-💰 Price range
-
-📞 Two contact numbers
-
-🛠️ Actions on Each Card
-🔍 Details – More info (currently non-functional)
-
-🙈 Hide – (optional logic placeholder)
-
-❤️ Shortlist / Unshortlist – Add/remove from shortlist
-
-🚩 Report – Placeholder
-
-📄 Filter Options (Top Navbar)
-📋 All
-
-🖼️ Gallery
-
-🗺️ Map
-
-❤️ Shortlisted – Toggle to view only shortlisted designers
-
-💡 Features
-✅ Dynamic data fetch from Flask backend
-
-✅ Shortlist logic using JavaScript Set
-
-
-🚀 Tech Stack
-Frontend: HTML, CSS, Vanilla JavaScript
-
-Backend: Python (Flask), Flask-CORS
-
-Data Source: Static JSON file (designers.json)
-
-
-🧪 Testing the App
-Run the backend (python app.py)
-
-Open the frontend (index.html)
-
-Click Shortlist, toggle Shortlisted view
-
-Ensure designer data appears correctly
+├── index.html # Main UI
+├── styles.css # Responsive styling
+├── script.js # Shortlist logic + data fetching
+└── assets/ # Figma icons and logos
